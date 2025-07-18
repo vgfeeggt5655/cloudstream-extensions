@@ -1,0 +1,25 @@
+<ext version="1">
+  <id>egybest.film</id>
+  <name>EgyBest</name>
+  <lang>ar</lang>
+  <main-url>https://egybest.film</main-url>
+  <search method="GET">
+    <endpoint>/index.php</endpoint>
+    <param name="do">search</param>
+    <param name="subaction">search</param>
+    <param name="story"><![CDATA[{query}]]></param>
+    <item-selector>.ml-item:has(a[href])</item-selector>
+    <title-selector>a@title</title-selector>
+    <url-selector>a@href</url-selector>
+    <image-selector>img@src</image-selector>
+  </search>
+  <load method="GET">
+    <item-selector>h1.entry-title</item-selector>
+    <image-selector>.film-poster img@src</image-selector>
+    <playlist>
+      <item-selector>.movieplay iframe@src</item-selector>
+      <label><![CDATA[EgyBest]]></label>
+      <is-m3u8>false</is-m3u8>
+    </playlist>
+  </load>
+</ext>
