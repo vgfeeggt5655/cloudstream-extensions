@@ -1,0 +1,15 @@
+{
+  "name": "EgyBest Repo",
+  "author": "ChatGPT Dev",
+  "extensions": [
+    {
+      "name": "EgyBest",
+      "version": "1.0",
+      "lang": "ar",
+      "description": "Stream EgyBest movies & series",
+      "iconUrl": "",
+      "mainClass": "EgyBest",
+      "fileUrl": "https://raw.githubusercontent.com/vgfeeggt5655/cloudstream-extensions/main/egybest.film.cs3"
+    }
+  ]
+}
