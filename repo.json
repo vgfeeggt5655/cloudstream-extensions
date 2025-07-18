@@ -1,9 +1,11 @@
-[
-  {
-    "name": "EgyBest",
-    "version": "1.0.0",
-    "description": "EgyBest Extension for CloudStream",
-    "iconUrl": "",
-    "fileUrl": "https://raw.githubusercontent.com/vgfeeggt5655/cloudstream-extensions/main/egybest.film.cs3"
-  }
-]
+{
+  "plugins": [
+    {
+      "name": "EgyBest",
+      "filename": "egybest.cs3",
+      "url": "https://raw.githubusercontent.com/vgfeeggt5655/cloudstream-extensions/main/egybest.cs3",
+      "icon": "",
+      "version": "1.0.0"
+    }
+  ]
+}
